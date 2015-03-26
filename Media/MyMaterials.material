@@ -1,0 +1,220 @@
+//This is from http://www.ogre3d.org/tikiwiki/Materials
+
+material CPresser/SemiClearRed
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+       		depth_write off
+ 
+       		texture_unit
+       		{
+            	colour_op_ex source1 src_manual src_current 1 0.255 0.212
+            	alpha_op_ex source1 src_manual src_current 0.8
+       		}
+		
+		}
+	}
+}
+
+
+material CPresser/SemiClearGreen
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+       		depth_write off
+ 
+       		texture_unit
+       		{
+            	colour_op_ex source1 src_manual src_current 0.18 0.8 0.251
+            	alpha_op_ex source1 src_manual src_current 0.8
+       		}
+		
+		}
+	}
+}
+
+
+material CPresser/SemiClearBlue
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+       		depth_write off
+ 
+       		texture_unit
+       		{
+            	colour_op_ex source1 src_manual src_current 0 0.455 0.851
+            	alpha_op_ex source1 src_manual src_current 0.8
+       		}
+		
+		}
+	}
+}
+
+
+material CPresser/SemiClearYellow
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+       		depth_write off
+ 
+       		texture_unit
+       		{
+            	colour_op_ex source1 src_manual src_current 1 0.863 0
+            	alpha_op_ex source1 src_manual src_current 0.8
+       		}
+		
+		}
+	}
+}
+
+
+material CPresser/SemiClearPurple
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+       		depth_write off
+ 
+       		texture_unit
+       		{
+            	colour_op_ex source1 src_manual src_current 0.694 0.051 0.788
+            	alpha_op_ex source1 src_manual src_current 0.8
+       		}
+		
+		}
+	}
+}
+
+
+material CPresser/SemiClearCyan
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+       		depth_write off
+ 
+       		texture_unit
+       		{
+            	colour_op_ex source1 src_manual src_current 0 0.6 0.737
+            	alpha_op_ex source1 src_manual src_current 0.8
+       		}
+		
+		}
+	}
+}
+
+material CPresser/Red
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1 0 0 
+		}
+	}
+}
+
+material CPresser/Green
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0 1 0 
+		}
+	}
+}
+
+material CPresser/Blue
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0 0 1
+		}
+	}
+}
+
+material CPresser/Yellow
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1 1 0 
+		}
+	}
+}
+
+material CPresser/Purple
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1 0 1 
+		}
+	}
+}
+
+material CPresser/Cyan
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0 1 1
+		}
+	}
+}
+material CPresser/Sphere
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture 128.png
+			}
+
+			texture_unit
+			{
+				texture sMap.png
+				env_map spherical
+			}
+		}
+	}
+}
+
+material CPresser/PurpleTile
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture 256.png
+			}
+		}
+	}
+}

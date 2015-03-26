@@ -1,0 +1,13 @@
+material Steps/StepsSmall
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				small_steps.png
+			}
+		}
+	}
+}
