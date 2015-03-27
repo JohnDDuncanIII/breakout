@@ -21,6 +21,7 @@ Block::Block(Ogre::SceneManager* mSceneMgr) {
 	mEntity->setQueryFlags(INTERSECTABLE | BLOCK_INTERSECT);
 
 	name = "blockNode" + numBlocks++;
+	//std::cout << "BLOCK NAME: " +  name;
 	this->mSceneNode = mSceneMgr->getRootSceneNode()->createChildSceneNode(name);
 	mSceneNode->attachObject(mEntity);
 	mSceneNode->setPosition(Ogre::Vector3(0.0f,-10.0f,-50.0f));
@@ -80,7 +81,7 @@ Block::~Block() {
 }
 
 bool Block::removeHP () {
-	//mSceneNode->scale(1.2, 1.2, 1.2);
+	mSceneNode->scale(1.2, 1.2, 1.2);
 	hitPoints--;
 	if(hitPoints == 0) {
 		mSceneMgr->destroySceneNode(mSceneNode);

@@ -10,7 +10,6 @@
 using namespace Ogre;
 
 const Ogre::uint32 Ball::INTERSECTABLE = 2;
-int Ball::numBalls = 0;
 
 Ball::Ball(Ogre::SceneManager* mSceneMgr, int nLives) {
 	this->mSceneMgr = mSceneMgr;
@@ -19,7 +18,7 @@ Ball::Ball(Ogre::SceneManager* mSceneMgr, int nLives) {
 
 	mEntity->setMaterialName("CPresser/Sphere");
 	mEntity->setQueryFlags(INTERSECTABLE);
-	name = "ballNode" + numBalls++;
+	name = "ballNode";
 	this->mSceneNode = mSceneMgr->getRootSceneNode()->createChildSceneNode(name);
 	mSceneNode->attachObject(mEntity);
 	mSceneNode->setPosition(Ogre::Vector3(0.0f,-10.0f,90.0f));
@@ -67,6 +66,10 @@ int Ball::getNumLives() {
 }
 std::string Ball::getName() {
 	return name;
+}
+
+void Ball::removeLife() {
+	numLives--;
 }
 
 void Ball::reset() {

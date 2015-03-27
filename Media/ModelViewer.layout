@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GUILayout version="4">
+    <Window type="DefaultWindow" name="root">
+    	<Window type="GlossySerpent/StaticText" name="Balls">
+            <Property name="Position" value="{{0.00,0},{0.97,0}}" />
+            <Property name="Size" value="{{0.12,0},{0.03,0}}" />
+			<Property name="Text" value="" />
+		</Window>   
+		<Window type="GlossySerpent/StaticText" name="Score">
+            <Property name="Position" value="{{0.63,0},{0.97,0}}" />
+            <Property name="Size" value="{{0.12,0},{0.03,0}}" />
+			<Property name="Text" value="" />
+		</Window>   
+		<Window type="GlossySerpent/StaticText" name="Level">
+            <Property name="Position" value="{{0,0},{0,0}}" />
+            <Property name="Size" value="{{0.12,0},{0.03,0}}" />
+			<Property name="Text" value="" />
+		</Window> 
+		<Window type="GlossySerpent/StaticText" name="Blocks">
+            <Property name="Position" value="{{0.63,0},{0,0}}" />
+            <Property name="Size" value="{{0.12,0},{0.03,0}}" />
+			<Property name="Text" value="" />
+		</Window>   
+		<Window type="GlossySerpent/Button" name="QuitButton">
+            <Property name="Position" value="{{0.88, 0},{0.97,0}}" />
+             <Property name="Size" value="{{0.12,0},{0.03,0}}" />
+			<Property name="Text" value="Quit" />
+		</Window> 
+		<Window type="GlossySerpent/Button" name="HighScoresButton">
+            <Property name="Position" value="{{0.75, 0},{0.97,0}}" />
+             <Property name="Size" value="{{0.12,0},{0.03,0}}" />
+			<Property name="Text" value="High Scores" />
+		</Window> 
+		
+		<Window type="GlossySerpent/FrameWindow" name="UserNameWindow">
+            <Property name="Position" value="{ {0.2, 0}, {0.45, 0} }" />
+            <Property name="Size" value="{ {0.35, 0}, {0.15, 0} }" />
+            <Property name="Text" value="Name Entry" />
+            
+             <Window type="GlossySerpent/Editbox" name="NameInputField" >
+                <Property name="Text" value="" />
+                <Property name="ReadOnly" value="False" />
+                <Property name="InheritsAlpha" value="False" />
+                <Property name="Alpha" value="1.0" />
+                <Property name="Area" value="{{0.19,0},{0.36,0},{0.50,0},{0.63,0}}" />
+                <Property name="Font" value="DejaVuSerif-HD-14" />
+                <Property name="TooltipText" value="You made it. Really. Now add your name here." />
+            </Window>
+            
+            
+            <Window type="GlossySerpent/Button" name="SubmitNameButton">
+            <Property name="Alpha" value="0.75" />
+                <Property name="Area" value="{{0.6,0},{0.36,0},{0.85,0},{0.63,0}}" />
+			<Property name="Text" value="Submit" />
+			</Window> 
+		</Window> 
+		
+		<Window type="GlossySerpent/FrameWindow" name="HighScoresWindow">
+            <Property name="Position" value="{ {0.5, 0}, {0.5, 0} }" />
+            <Property name="Size" value="{ {0.5, 0}, {0.5, 0} }" />
+            <Property name="Text" value="Breakout High Scores" />
+            
+            
+            <Window type="GlossySerpent/Editbox" name="Score1Label" >
+                <Property name="Text" value="999" />
+                <Property name="ReadOnly" value="True" />
+                <Property name="Alpha" value="0.75" />
+                <Property name="Area" value="{{0.1,0},{0.01,0},{0.4,0},{0.07,0}}" />
+                <Property name="Text" value="" />
+            </Window>
+            <Window type="GlossySerpent/Editbox" name="Name1Label" >
+                <Property name="Text" value="Score_01" />
+                <Property name="ReadOnly" value="True" />
+                <Property name="Alpha" value="0.75" />
+                <Property name="Area" value="{{0.45,0},{0.01,0},{0.90,0},{0.07,0}}" />
+                 <Property name="Text" value="" />
+            </Window>
+
+            <Window type="GlossySerpent/Editbox" name="Score2Label" >
+                <Property name="Text" value="Score_02" />
+                <Property name="ReadOnly" value="True" />
+                <Property name="Alpha" value="0.75" />
+                <Property name="Area" value="{{0.10,0},{0.08,0},{0.40,0},{0.14,0}}" />
+                 <Property name="Text" value="" />
+            </Window>
+            <Window type="GlossySerpent/Editbox" name="Name2Label" >
+                <Property name="Text" value="Score_02" />
+                <Property name="ReadOnly" value="True" />
+                <Property name="Alpha" value="0.75" />
+                <Property name="Area" value="{{0.45,0},{0.08,0},{0.90,0},{0.14,0}}" />
+                 <Property name="Text" value="" />
+            </Window>
+
+            <Window type="GlossySerpent/Editbox" name="Score3Label" >
+                <Property name="Text" value="Score_03" />
+                <Property name="ReadOnly" value="True" />
+                <Property name="Alpha" value="0.75" />
+                <Property name="Area" value="{{0.1,0},{0.15,0},{0.40,0},{0.21,0}}" />
+                 <Property name="Text" value="" />
+            </Window>
+            <Window type="GlossySerpent/Editbox" name="Name3Label" >
+                <Property name="Text" value="Score_03" />
+                <Property name="ReadOnly" value="True" />
+                <Property name="Alpha" value="0.75" />
+                <Property name="Area" value="{{0.45,0},{0.15,0},{0.90,0},{0.21,0}}" />
+                 <Property name="Text" value="" />
+            </Window>
+
+            <Window type="GlossySerpent/Editbox" name="Score4Label" >
+                <Property name="Text" value="Score_04" />
+                <Property name="ReadOnly" value="True" />
+                <Property name="Alpha" value="0.75" />
+                <Property name="Area" value="{{0.1,0},{0.22,0},{0.4,0},{0.28,0}}" />
+                 <Property name="Text" value="" />
+            </Window>
+            <Window type="GlossySerpent/Editbox" name="Name4Label" >
+                <Property name="Text" value="Score_04" />
+                <Property name="ReadOnly" value="True" />
+                <Property name="Alpha" value="0.75" />
+                <Property name="Area" value="{{0.45,0},{0.22,0},{0.90,0},{0.28,0}}" />
+                 <Property name="Text" value="" />
+            </Window>
+
+            <Window type="GlossySerpent/Editbox" name="Score5Label" >
+                <Property name="Text" value="Score_05" />
+                <Property name="ReadOnly" value="True" />
+                <Property name="Alpha" value="0.75" />
+                <Property name="Area" value="{{0.1,0},{0.29,0},{0.4,0},{0.35,0}}" />
+                 <Property name="Text" value="" />
+            </Window>
+            <Window type="GlossySerpent/Editbox" name="Name5Label" >
+                <Property name="Text" value="Score_05" />
+                <Property name="ReadOnly" value="True" />
+                <Property name="Alpha" value="0.75" />
+                <Property name="Area" value="{{0.45,0},{0.29,0},{0.90,0},{0.35,0}}" />
+                 <Property name="Text" value="" />
+            </Window>
+
+            <Window type="GlossySerpent/Editbox" name="Score6Label" >
+                <Property name="Text" value="Score_06" />
+                <Property name="ReadOnly" value="True" />
+                <Property name="Alpha" value="0.75" />
+                <Property name="Area" value="{{0.1,0},{0.36,0},{0.4,0},{0.41,0}}" />
+                 <Property name="Text" value="" />
+            </Window>
+            <Window type="GlossySerpent/Editbox" name="Name6Label" >
+                <Property name="Text" value="Score_06" />
+                <Property name="ReadOnly" value="True" />
+                <Property name="Alpha" value="0.75" />
+                <Property name="Area" value="{{0.45,0},{0.36,0},{0.90,0},{0.41,0}}" />
+                 <Property name="Text" value="" />
+            </Window>
+
+            <Window type="GlossySerpent/Editbox" name="Score7Label" >
+                <Property name="Text" value="Score_07" />
+                <Property name="ReadOnly" value="True" />
+                <Property name="Alpha" value="0.75" />
+                <Property name="Area" value="{{0.1,0},{0.42,0},{0.4,0},{0.48,0}}" />
+                 <Property name="Text" value="" />
+            </Window>
+            <Window type="GlossySerpent/Editbox" name="Name7Label" >
+                <Property name="Text" value="Score_07" />
+                <Property name="ReadOnly" value="True" />
+                <Property name="Alpha" value="0.75" />
+                <Property name="Area" value="{{0.45,0},{0.42,0},{0.90,0},{0.48,0}}" />
+                 <Property name="Text" value="" />
+            </Window>
+
+            <Window type="GlossySerpent/Editbox" name="Score8Label" >
+                <Property name="Text" value="Score_08" />
+                <Property name="ReadOnly" value="True" />
+                <Property name="Alpha" value="0.75" />
+                <Property name="Area" value="{{0.1,0},{0.49,0},{0.4,0},{0.55,0}}" />
+                 <Property name="Text" value="" />
+            </Window>
+            <Window type="GlossySerpent/Editbox" name="Name8Label" >
+                <Property name="Text" value="Score_08" />
+                <Property name="ReadOnly" value="True" />
+                <Property name="Alpha" value="0.75" />
+                <Property name="Area" value="{{0.45,0},{0.49,0},{0.90,0},{0.55,0}}" />
+                 <Property name="Text" value="" />
+            </Window>
+
+            <Window type="GlossySerpent/Editbox" name="Score9Label" >
+                <Property name="Text" value="Score_09" />
+                <Property name="ReadOnly" value="True" />
+                <Property name="Alpha" value="0.75" />
+                <Property name="Area" value="{{0.1,0},{0.56,0},{0.4,0},{0.62,0}}" />
+                 <Property name="Text" value="" />
+            </Window>
+            <Window type="GlossySerpent/Editbox" name="Name9Label" >
+                <Property name="Text" value="Score_09" />
+                <Property name="ReadOnly" value="True" />
+                <Property name="Alpha" value="0.75" />
+                <Property name="Area" value="{{0.45,0},{0.56,0},{0.90,0},{0.62,0}}" />
+                 <Property name="Text" value="" />
+            </Window>
+
+            <Window type="GlossySerpent/Editbox" name="Score10Label" >
+                <Property name="Text" value="Score_10" />
+                <Property name="ReadOnly" value="True" />
+                <Property name="Alpha" value="0.75" />
+                <Property name="Area" value="{{0.1,0},{0.63,0},{0.4,0},{0.69,0}}" />
+                 <Property name="Text" value="" />
+            </Window>
+            <Window type="GlossySerpent/Editbox" name="Name10Label" >
+                <Property name="Text" value="Score_10" />
+                <Property name="ReadOnly" value="True" />
+                <Property name="Alpha" value="0.75" />
+                <Property name="Area" value="{{0.45,0},{0.63,0},{0.90,0},{0.69,0}}" />
+                 <Property name="Text" value="" />
+            </Window>
+            
+        </Window>
+
+	
+	
+	
+	
+
+
+
+    </Window>
+</GUILayout>

@@ -25,6 +25,7 @@
 								<option id="gnu.cpp.compiler.exe.debug.option.debugging.level.892525052" name="Debug Level" superClass="gnu.cpp.compiler.exe.debug.option.debugging.level" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.option.include.paths.2061333507" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
 									<listOptionValue builtIn="false" value="/usr/local/include/OGRE"/>
+									<listOptionValue builtIn="false" value="/usr/local/include/cegui-0"/>
 									<listOptionValue builtIn="false" value="/usr/local/include/OGRE/Overlay"/>
 									<listOptionValue builtIn="false" value="/usr/include/ois"/>
 								</option>
@@ -40,10 +41,13 @@
 							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.exe.debug.295658671" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.exe.debug">
 								<option id="gnu.cpp.link.option.paths.1375865670" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" valueType="libPaths">
 									<listOptionValue builtIn="false" value="/usr/local/lib"/>
+									<listOptionValue builtIn="false" value="/usr/local/lib/cegui-0.8/"/>
 									<listOptionValue builtIn="false" value="/usr/lib/x86_64-linux-gnu"/>
 								</option>
 								<option id="gnu.cpp.link.option.libs.46718865" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs" valueType="libs">
 									<listOptionValue builtIn="false" value="OgreMain"/>
+									<listOptionValue builtIn="false" value="CEGUIBase-0"/>
+									<listOptionValue builtIn="false" value="CEGUIOgreRenderer-0"/>
 									<listOptionValue builtIn="false" value="OgreRTShaderSystem"/>
 									<listOptionValue builtIn="false" value="OgreOverlay"/>
 									<listOptionValue builtIn="false" value="OIS"/>

@@ -231,7 +231,267 @@ src/Breakout.d: ../src/Breakout.cpp ../src/Breakout.h \
  /usr/include/ois/OISException.h /usr/include/ois/OISEffect.h \
  /usr/include/ois/OISForceFeedback.h \
  /usr/local/include/OGRE/SdkCameraMan.h ../src/Paddle.h ../src/Ball.h \
- ../src/Block.h
+ ../src/Block.h /usr/local/include/cegui-0/CEGUI/CEGUI.h \
+ /usr/local/include/cegui-0/CEGUI/Affector.h \
+ /usr/local/include/cegui-0/CEGUI/String.h \
+ /usr/local/include/cegui-0/CEGUI/Base.h \
+ /usr/local/include/cegui-0/CEGUI/Config.h \
+ /usr/local/include/cegui-0/CEGUI/Version.h \
+ /usr/local/include/cegui-0/CEGUI/ForwardRefs.h \
+ /usr/local/include/cegui-0/CEGUI/MemoryAllocation.h \
+ /usr/local/include/cegui-0/CEGUI/MemoryAllocatedObject.h \
+ /usr/local/include/cegui-0/CEGUI/MemorySTLWrapper.h \
+ /usr/local/include/cegui-0/CEGUI/KeyFrame.h \
+ /usr/local/include/cegui-0/CEGUI/Animation.h \
+ /usr/local/include/cegui-0/CEGUI/AnimationInstance.h \
+ /usr/local/include/cegui-0/CEGUI/EventArgs.h \
+ /usr/local/include/cegui-0/CEGUI/Event.h \
+ /usr/local/include/cegui-0/CEGUI/BoundSlot.h \
+ /usr/local/include/cegui-0/CEGUI/SubscriberSlot.h \
+ /usr/local/include/cegui-0/CEGUI/FreeFunctionSlot.h \
+ /usr/local/include/cegui-0/CEGUI/SlotFunctorBase.h \
+ /usr/local/include/cegui-0/CEGUI/FunctorCopySlot.h \
+ /usr/local/include/cegui-0/CEGUI/FunctorReferenceSlot.h \
+ /usr/local/include/cegui-0/CEGUI/FunctorPointerSlot.h \
+ /usr/local/include/cegui-0/CEGUI/MemberFunctionSlot.h \
+ /usr/local/include/cegui-0/CEGUI/FunctorReferenceBinder.h \
+ /usr/local/include/cegui-0/CEGUI/RefCounted.h \
+ /usr/local/include/cegui-0/CEGUI/AnimationManager.h \
+ /usr/local/include/cegui-0/CEGUI/Singleton.h \
+ /usr/local/include/cegui-0/CEGUI/BasicImage.h \
+ /usr/local/include/cegui-0/CEGUI/Image.h \
+ /usr/local/include/cegui-0/CEGUI/ChainedXMLHandler.h \
+ /usr/local/include/cegui-0/CEGUI/XMLHandler.h \
+ /usr/local/include/cegui-0/CEGUI/ColourRect.h \
+ /usr/local/include/cegui-0/CEGUI/Colour.h \
+ /usr/local/include/cegui-0/CEGUI/Rect.h \
+ /usr/local/include/cegui-0/CEGUI/Vector.h \
+ /usr/local/include/cegui-0/CEGUI/UDim.h \
+ /usr/local/include/cegui-0/CEGUI/Size.h \
+ /usr/local/include/cegui-0/CEGUI/BasicRenderedStringParser.h \
+ /usr/local/include/cegui-0/CEGUI/RenderedStringParser.h \
+ /usr/local/include/cegui-0/CEGUI/RenderedString.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/Enums.h \
+ /usr/local/include/cegui-0/CEGUI/PropertyHelper.h \
+ /usr/local/include/cegui-0/CEGUI/Quaternion.h \
+ /usr/local/include/cegui-0/CEGUI/Interpolator.h \
+ /usr/local/include/cegui-0/CEGUI/BidiVisualMapping.h \
+ /usr/local/include/cegui-0/CEGUI/CentredRenderedString.h \
+ /usr/local/include/cegui-0/CEGUI/FormattedRenderedString.h \
+ /usr/local/include/cegui-0/CEGUI/Clipboard.h \
+ /usr/local/include/cegui-0/CEGUI/CoordConverter.h \
+ /usr/local/include/cegui-0/CEGUI/DataContainer.h \
+ /usr/local/include/cegui-0/CEGUI/DefaultLogger.h \
+ /usr/local/include/cegui-0/CEGUI/Logger.h \
+ /usr/local/include/cegui-0/CEGUI/DefaultRenderedStringParser.h \
+ /usr/local/include/cegui-0/CEGUI/DefaultResourceProvider.h \
+ /usr/local/include/cegui-0/CEGUI/ResourceProvider.h \
+ /usr/local/include/cegui-0/CEGUI/DynamicModule.h \
+ /usr/local/include/cegui-0/CEGUI/Element.h \
+ /usr/local/include/cegui-0/CEGUI/PropertySet.h \
+ /usr/local/include/cegui-0/CEGUI/IteratorBase.h \
+ /usr/local/include/cegui-0/CEGUI/Property.h \
+ /usr/local/include/cegui-0/CEGUI/XMLSerializer.h \
+ /usr/local/include/cegui-0/CEGUI/TypedProperty.h \
+ /usr/local/include/cegui-0/CEGUI/Exceptions.h \
+ /usr/local/include/cegui-0/CEGUI/TplWindowProperty.h \
+ /usr/local/include/cegui-0/CEGUI/TplProperty.h \
+ /usr/local/include/cegui-0/CEGUI/EventSet.h \
+ /usr/local/include/cegui-0/CEGUI/FactoryModule.h \
+ /usr/local/include/cegui-0/CEGUI/FactoryRegisterer.h \
+ /usr/local/include/cegui-0/CEGUI/Font.h \
+ /usr/local/include/cegui-0/CEGUI/FontGlyph.h \
+ /usr/local/include/cegui-0/CEGUI/FontManager.h \
+ /usr/local/include/cegui-0/CEGUI/NamedXMLResourceManager.h \
+ /usr/local/include/cegui-0/CEGUI/InputEvent.h \
+ /usr/local/include/cegui-0/CEGUI/System.h \
+ /usr/local/include/cegui-0/CEGUI/Renderer.h \
+ /usr/local/include/cegui-0/CEGUI/IconvStringTranscoder.h \
+ /usr/local/include/cegui-0/CEGUI/StringTranscoder.h \
+ /usr/local/include/cegui-0/CEGUI/Font_xmlHandler.h \
+ /usr/local/include/cegui-0/CEGUI/GeometryBuffer.h \
+ /usr/local/include/cegui-0/CEGUI/GlobalEventSet.h \
+ /usr/local/include/cegui-0/CEGUI/GUIContext.h \
+ /usr/local/include/cegui-0/CEGUI/RenderingSurface.h \
+ /usr/local/include/cegui-0/CEGUI/RenderQueue.h \
+ /usr/local/include/cegui-0/CEGUI/InjectedInputReceiver.h \
+ /usr/local/include/cegui-0/CEGUI/MouseCursor.h \
+ /usr/local/include/cegui-0/CEGUI/SystemKeys.h \
+ /usr/local/include/cegui-0/CEGUI/ImageCodec.h \
+ /usr/local/include/cegui-0/CEGUI/Texture.h \
+ /usr/local/include/cegui-0/CEGUI/ImageManager.h \
+ /usr/local/include/cegui-0/CEGUI/ImageFactory.h \
+ /usr/local/include/cegui-0/CEGUI/JustifiedRenderedString.h \
+ /usr/local/include/cegui-0/CEGUI/LeftAlignedRenderedString.h \
+ /usr/local/include/cegui-0/CEGUI/LinkedEvent.h \
+ /usr/local/include/cegui-0/CEGUI/NamedElement.h \
+ /usr/local/include/cegui-0/CEGUI/RegexMatcher.h \
+ /usr/local/include/cegui-0/CEGUI/RenderedStringImageComponent.h \
+ /usr/local/include/cegui-0/CEGUI/RenderedStringComponent.h \
+ /usr/local/include/cegui-0/CEGUI/RenderedStringTextComponent.h \
+ /usr/local/include/cegui-0/CEGUI/RenderedStringWidgetComponent.h \
+ /usr/local/include/cegui-0/CEGUI/RenderedStringWordWrapper.h \
+ /usr/local/include/cegui-0/CEGUI/RenderEffect.h \
+ /usr/local/include/cegui-0/CEGUI/RenderEffectManager.h \
+ /usr/local/include/cegui-0/CEGUI/RenderEffectFactory.h \
+ /usr/local/include/cegui-0/CEGUI/RenderingContext.h \
+ /usr/local/include/cegui-0/CEGUI/RenderingWindow.h \
+ /usr/local/include/cegui-0/CEGUI/RenderTarget.h \
+ /usr/local/include/cegui-0/CEGUI/RightAlignedRenderedString.h \
+ /usr/local/include/cegui-0/CEGUI/Scheme.h \
+ /usr/local/include/cegui-0/CEGUI/SchemeManager.h \
+ /usr/local/include/cegui-0/CEGUI/Scheme_xmlHandler.h \
+ /usr/local/include/cegui-0/CEGUI/ScriptModule.h \
+ /usr/local/include/cegui-0/CEGUI/SimpleTimer.h \
+ /usr/local/include/cegui-0/CEGUI/TextureTarget.h \
+ /usr/local/include/cegui-0/CEGUI/TextUtils.h \
+ /usr/local/include/cegui-0/CEGUI/TplInterpolators.h \
+ /usr/local/include/cegui-0/CEGUI/TplWindowFactory.h \
+ /usr/local/include/cegui-0/CEGUI/WindowFactory.h \
+ /usr/local/include/cegui-0/CEGUI/Window.h \
+ /usr/local/include/cegui-0/CEGUI/WindowRenderer.h \
+ /usr/local/include/cegui-0/CEGUI/TplWindowRendererFactory.h \
+ /usr/local/include/cegui-0/CEGUI/TplWindowFactoryRegisterer.h \
+ /usr/local/include/cegui-0/CEGUI/WindowFactoryManager.h \
+ /usr/local/include/cegui-0/CEGUI/TplWRFactoryRegisterer.h \
+ /usr/local/include/cegui-0/CEGUI/WindowRendererManager.h \
+ /usr/local/include/cegui-0/CEGUI/Vertex.h \
+ /usr/local/include/cegui-0/CEGUI/WindowManager.h \
+ /usr/local/include/cegui-0/CEGUI/XMLAttributes.h \
+ /usr/local/include/cegui-0/CEGUI/XMLParser.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/WidgetLookManager.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/../Singleton.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/../String.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/../Exceptions.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/./WidgetLookFeel.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/././StateImagery.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/./././LayerSpecification.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/././././SectionSpecification.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/././././../Window.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/././././../ColourRect.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/./././../Window.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/././../Window.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/././WidgetComponent.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/Dimensions.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/./Enums.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/../UDim.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/../Rect.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/../XMLSerializer.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/PropertyInitialiser.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/../PropertySet.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/EventAction.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/././ImagerySection.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/./././ImageryComponent.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/././././ComponentBase.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/./././../XMLSerializer.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/FormattingSetting.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/XMLEnumHelper.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/../Window.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/./././TextComponent.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/./././../RenderedString.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/./././../RefCounted.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/./././../FormattedRenderedString.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/./././FrameComponent.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/ComponentBase.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/././../XMLSerializer.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/././PropertyInitialiser.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/././PropertyDefinition.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/FalagardPropertyBase.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/PropertyDefinitionBase.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/XMLHandler.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/../ChainedXMLHandler.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/./Dimensions.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/././PropertyLinkDefinition.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/././EventLinkDefinition.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/././../String.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/././../IteratorBase.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/././NamedArea.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/./././Dimensions.h \
+ /usr/local/include/cegui-0/CEGUI/falagard/././NamedDefinitionCollator.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/All.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./ClippedContainer.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./../Window.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./../WindowFactory.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./Combobox.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./ComboDropList.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/././Listbox.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/././../Base.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/././../Window.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./DefaultWindow.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./DragContainer.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./Editbox.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./FrameWindow.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./../Base.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./GridLayoutContainer.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/././LayoutContainer.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./GroupBox.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/././ClippedContainer.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./HorizontalLayoutContainer.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/././SequentialLayoutContainer.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./././LayoutContainer.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./ItemEntry.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./ItemListbox.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/././ScrolledItemListBase.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./././ItemListBase.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./././../Base.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./././../Window.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/././././ItemEntry.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./././Scrollbar.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./LayoutCell.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./Listbox.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./ListboxItem.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./../String.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./../ColourRect.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./../TextUtils.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./../Size.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./../Rect.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./ListboxTextItem.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/././ListboxItem.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./../BasicRenderedStringParser.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./../DefaultRenderedStringParser.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./ListHeader.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/././ListHeaderSegment.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./Menubar.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/././MenuBase.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./MenuItem.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/././ItemEntry.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./MultiColumnList.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/././ListHeader.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./MultiLineEditbox.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./../Font.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./PopupMenu.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./ProgressBar.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./PushButton.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/././ButtonBase.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./RadioButton.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/ToggleButton.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/ButtonBase.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./ScrollablePane.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./Scrollbar.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./ScrolledContainer.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./Slider.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./Spinner.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./TabButton.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./TabControl.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./Thumb.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/././PushButton.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./Titlebar.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./ToggleButton.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./Tooltip.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./Tree.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./../WindowManager.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/././TreeItem.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/././../String.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/././../ColourRect.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/././../BasicRenderedStringParser.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/././Scrollbar.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./TreeItem.h \
+ /usr/local/include/cegui-0/CEGUI/widgets/./VerticalLayoutContainer.h \
+ /usr/local/include/cegui-0/CEGUI/RendererModules/Ogre/Renderer.h \
+ /usr/local/include/cegui-0/CEGUI/RendererModules/Ogre/../../Renderer.h \
+ /usr/local/include/cegui-0/CEGUI/RendererModules/Ogre/../../Size.h \
+ /usr/local/include/cegui-0/CEGUI/RendererModules/Ogre/../../Vector.h \
+ ../src/HighScores.h
 
 ../src/Breakout.h:
 
@@ -734,3 +994,525 @@ src/Breakout.d: ../src/Breakout.cpp ../src/Breakout.h \
 ../src/Ball.h:
 
 ../src/Block.h:
+
+/usr/local/include/cegui-0/CEGUI/CEGUI.h:
+
+/usr/local/include/cegui-0/CEGUI/Affector.h:
+
+/usr/local/include/cegui-0/CEGUI/String.h:
+
+/usr/local/include/cegui-0/CEGUI/Base.h:
+
+/usr/local/include/cegui-0/CEGUI/Config.h:
+
+/usr/local/include/cegui-0/CEGUI/Version.h:
+
+/usr/local/include/cegui-0/CEGUI/ForwardRefs.h:
+
+/usr/local/include/cegui-0/CEGUI/MemoryAllocation.h:
+
+/usr/local/include/cegui-0/CEGUI/MemoryAllocatedObject.h:
+
+/usr/local/include/cegui-0/CEGUI/MemorySTLWrapper.h:
+
+/usr/local/include/cegui-0/CEGUI/KeyFrame.h:
+
+/usr/local/include/cegui-0/CEGUI/Animation.h:
+
+/usr/local/include/cegui-0/CEGUI/AnimationInstance.h:
+
+/usr/local/include/cegui-0/CEGUI/EventArgs.h:
+
+/usr/local/include/cegui-0/CEGUI/Event.h:
+
+/usr/local/include/cegui-0/CEGUI/BoundSlot.h:
+
+/usr/local/include/cegui-0/CEGUI/SubscriberSlot.h:
+
+/usr/local/include/cegui-0/CEGUI/FreeFunctionSlot.h:
+
+/usr/local/include/cegui-0/CEGUI/SlotFunctorBase.h:
+
+/usr/local/include/cegui-0/CEGUI/FunctorCopySlot.h:
+
+/usr/local/include/cegui-0/CEGUI/FunctorReferenceSlot.h:
+
+/usr/local/include/cegui-0/CEGUI/FunctorPointerSlot.h:
+
+/usr/local/include/cegui-0/CEGUI/MemberFunctionSlot.h:
+
+/usr/local/include/cegui-0/CEGUI/FunctorReferenceBinder.h:
+
+/usr/local/include/cegui-0/CEGUI/RefCounted.h:
+
+/usr/local/include/cegui-0/CEGUI/AnimationManager.h:
+
+/usr/local/include/cegui-0/CEGUI/Singleton.h:
+
+/usr/local/include/cegui-0/CEGUI/BasicImage.h:
+
+/usr/local/include/cegui-0/CEGUI/Image.h:
+
+/usr/local/include/cegui-0/CEGUI/ChainedXMLHandler.h:
+
+/usr/local/include/cegui-0/CEGUI/XMLHandler.h:
+
+/usr/local/include/cegui-0/CEGUI/ColourRect.h:
+
+/usr/local/include/cegui-0/CEGUI/Colour.h:
+
+/usr/local/include/cegui-0/CEGUI/Rect.h:
+
+/usr/local/include/cegui-0/CEGUI/Vector.h:
+
+/usr/local/include/cegui-0/CEGUI/UDim.h:
+
+/usr/local/include/cegui-0/CEGUI/Size.h:
+
+/usr/local/include/cegui-0/CEGUI/BasicRenderedStringParser.h:
+
+/usr/local/include/cegui-0/CEGUI/RenderedStringParser.h:
+
+/usr/local/include/cegui-0/CEGUI/RenderedString.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/Enums.h:
+
+/usr/local/include/cegui-0/CEGUI/PropertyHelper.h:
+
+/usr/local/include/cegui-0/CEGUI/Quaternion.h:
+
+/usr/local/include/cegui-0/CEGUI/Interpolator.h:
+
+/usr/local/include/cegui-0/CEGUI/BidiVisualMapping.h:
+
+/usr/local/include/cegui-0/CEGUI/CentredRenderedString.h:
+
+/usr/local/include/cegui-0/CEGUI/FormattedRenderedString.h:
+
+/usr/local/include/cegui-0/CEGUI/Clipboard.h:
+
+/usr/local/include/cegui-0/CEGUI/CoordConverter.h:
+
+/usr/local/include/cegui-0/CEGUI/DataContainer.h:
+
+/usr/local/include/cegui-0/CEGUI/DefaultLogger.h:
+
+/usr/local/include/cegui-0/CEGUI/Logger.h:
+
+/usr/local/include/cegui-0/CEGUI/DefaultRenderedStringParser.h:
+
+/usr/local/include/cegui-0/CEGUI/DefaultResourceProvider.h:
+
+/usr/local/include/cegui-0/CEGUI/ResourceProvider.h:
+
+/usr/local/include/cegui-0/CEGUI/DynamicModule.h:
+
+/usr/local/include/cegui-0/CEGUI/Element.h:
+
+/usr/local/include/cegui-0/CEGUI/PropertySet.h:
+
+/usr/local/include/cegui-0/CEGUI/IteratorBase.h:
+
+/usr/local/include/cegui-0/CEGUI/Property.h:
+
+/usr/local/include/cegui-0/CEGUI/XMLSerializer.h:
+
+/usr/local/include/cegui-0/CEGUI/TypedProperty.h:
+
+/usr/local/include/cegui-0/CEGUI/Exceptions.h:
+
+/usr/local/include/cegui-0/CEGUI/TplWindowProperty.h:
+
+/usr/local/include/cegui-0/CEGUI/TplProperty.h:
+
+/usr/local/include/cegui-0/CEGUI/EventSet.h:
+
+/usr/local/include/cegui-0/CEGUI/FactoryModule.h:
+
+/usr/local/include/cegui-0/CEGUI/FactoryRegisterer.h:
+
+/usr/local/include/cegui-0/CEGUI/Font.h:
+
+/usr/local/include/cegui-0/CEGUI/FontGlyph.h:
+
+/usr/local/include/cegui-0/CEGUI/FontManager.h:
+
+/usr/local/include/cegui-0/CEGUI/NamedXMLResourceManager.h:
+
+/usr/local/include/cegui-0/CEGUI/InputEvent.h:
+
+/usr/local/include/cegui-0/CEGUI/System.h:
+
+/usr/local/include/cegui-0/CEGUI/Renderer.h:
+
+/usr/local/include/cegui-0/CEGUI/IconvStringTranscoder.h:
+
+/usr/local/include/cegui-0/CEGUI/StringTranscoder.h:
+
+/usr/local/include/cegui-0/CEGUI/Font_xmlHandler.h:
+
+/usr/local/include/cegui-0/CEGUI/GeometryBuffer.h:
+
+/usr/local/include/cegui-0/CEGUI/GlobalEventSet.h:
+
+/usr/local/include/cegui-0/CEGUI/GUIContext.h:
+
+/usr/local/include/cegui-0/CEGUI/RenderingSurface.h:
+
+/usr/local/include/cegui-0/CEGUI/RenderQueue.h:
+
+/usr/local/include/cegui-0/CEGUI/InjectedInputReceiver.h:
+
+/usr/local/include/cegui-0/CEGUI/MouseCursor.h:
+
+/usr/local/include/cegui-0/CEGUI/SystemKeys.h:
+
+/usr/local/include/cegui-0/CEGUI/ImageCodec.h:
+
+/usr/local/include/cegui-0/CEGUI/Texture.h:
+
+/usr/local/include/cegui-0/CEGUI/ImageManager.h:
+
+/usr/local/include/cegui-0/CEGUI/ImageFactory.h:
+
+/usr/local/include/cegui-0/CEGUI/JustifiedRenderedString.h:
+
+/usr/local/include/cegui-0/CEGUI/LeftAlignedRenderedString.h:
+
+/usr/local/include/cegui-0/CEGUI/LinkedEvent.h:
+
+/usr/local/include/cegui-0/CEGUI/NamedElement.h:
+
+/usr/local/include/cegui-0/CEGUI/RegexMatcher.h:
+
+/usr/local/include/cegui-0/CEGUI/RenderedStringImageComponent.h:
+
+/usr/local/include/cegui-0/CEGUI/RenderedStringComponent.h:
+
+/usr/local/include/cegui-0/CEGUI/RenderedStringTextComponent.h:
+
+/usr/local/include/cegui-0/CEGUI/RenderedStringWidgetComponent.h:
+
+/usr/local/include/cegui-0/CEGUI/RenderedStringWordWrapper.h:
+
+/usr/local/include/cegui-0/CEGUI/RenderEffect.h:
+
+/usr/local/include/cegui-0/CEGUI/RenderEffectManager.h:
+
+/usr/local/include/cegui-0/CEGUI/RenderEffectFactory.h:
+
+/usr/local/include/cegui-0/CEGUI/RenderingContext.h:
+
+/usr/local/include/cegui-0/CEGUI/RenderingWindow.h:
+
+/usr/local/include/cegui-0/CEGUI/RenderTarget.h:
+
+/usr/local/include/cegui-0/CEGUI/RightAlignedRenderedString.h:
+
+/usr/local/include/cegui-0/CEGUI/Scheme.h:
+
+/usr/local/include/cegui-0/CEGUI/SchemeManager.h:
+
+/usr/local/include/cegui-0/CEGUI/Scheme_xmlHandler.h:
+
+/usr/local/include/cegui-0/CEGUI/ScriptModule.h:
+
+/usr/local/include/cegui-0/CEGUI/SimpleTimer.h:
+
+/usr/local/include/cegui-0/CEGUI/TextureTarget.h:
+
+/usr/local/include/cegui-0/CEGUI/TextUtils.h:
+
+/usr/local/include/cegui-0/CEGUI/TplInterpolators.h:
+
+/usr/local/include/cegui-0/CEGUI/TplWindowFactory.h:
+
+/usr/local/include/cegui-0/CEGUI/WindowFactory.h:
+
+/usr/local/include/cegui-0/CEGUI/Window.h:
+
+/usr/local/include/cegui-0/CEGUI/WindowRenderer.h:
+
+/usr/local/include/cegui-0/CEGUI/TplWindowRendererFactory.h:
+
+/usr/local/include/cegui-0/CEGUI/TplWindowFactoryRegisterer.h:
+
+/usr/local/include/cegui-0/CEGUI/WindowFactoryManager.h:
+
+/usr/local/include/cegui-0/CEGUI/TplWRFactoryRegisterer.h:
+
+/usr/local/include/cegui-0/CEGUI/WindowRendererManager.h:
+
+/usr/local/include/cegui-0/CEGUI/Vertex.h:
+
+/usr/local/include/cegui-0/CEGUI/WindowManager.h:
+
+/usr/local/include/cegui-0/CEGUI/XMLAttributes.h:
+
+/usr/local/include/cegui-0/CEGUI/XMLParser.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/WidgetLookManager.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/../Singleton.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/../String.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/../Exceptions.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/./WidgetLookFeel.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/././StateImagery.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/./././LayerSpecification.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/././././SectionSpecification.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/././././../Window.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/././././../ColourRect.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/./././../Window.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/././../Window.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/././WidgetComponent.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/Dimensions.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/./Enums.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/../UDim.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/../Rect.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/../XMLSerializer.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/PropertyInitialiser.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/../PropertySet.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/EventAction.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/././ImagerySection.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/./././ImageryComponent.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/././././ComponentBase.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/./././../XMLSerializer.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/FormattingSetting.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/XMLEnumHelper.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/../Window.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/./././TextComponent.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/./././../RenderedString.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/./././../RefCounted.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/./././../FormattedRenderedString.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/./././FrameComponent.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/ComponentBase.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/././../XMLSerializer.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/././PropertyInitialiser.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/././PropertyDefinition.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/FalagardPropertyBase.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/PropertyDefinitionBase.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/XMLHandler.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/../ChainedXMLHandler.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/./Dimensions.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/././PropertyLinkDefinition.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/././EventLinkDefinition.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/././../String.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/././../IteratorBase.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/././NamedArea.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/./././Dimensions.h:
+
+/usr/local/include/cegui-0/CEGUI/falagard/././NamedDefinitionCollator.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/All.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./ClippedContainer.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./../Window.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./../WindowFactory.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./Combobox.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./ComboDropList.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/././Listbox.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/././../Base.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/././../Window.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./DefaultWindow.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./DragContainer.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./Editbox.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./FrameWindow.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./../Base.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./GridLayoutContainer.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/././LayoutContainer.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./GroupBox.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/././ClippedContainer.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./HorizontalLayoutContainer.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/././SequentialLayoutContainer.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./././LayoutContainer.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./ItemEntry.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./ItemListbox.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/././ScrolledItemListBase.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./././ItemListBase.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./././../Base.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./././../Window.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/././././ItemEntry.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./././Scrollbar.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./LayoutCell.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./Listbox.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./ListboxItem.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./../String.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./../ColourRect.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./../TextUtils.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./../Size.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./../Rect.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./ListboxTextItem.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/././ListboxItem.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./../BasicRenderedStringParser.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./../DefaultRenderedStringParser.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./ListHeader.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/././ListHeaderSegment.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./Menubar.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/././MenuBase.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./MenuItem.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/././ItemEntry.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./MultiColumnList.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/././ListHeader.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./MultiLineEditbox.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./../Font.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./PopupMenu.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./ProgressBar.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./PushButton.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/././ButtonBase.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./RadioButton.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/ToggleButton.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/ButtonBase.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./ScrollablePane.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./Scrollbar.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./ScrolledContainer.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./Slider.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./Spinner.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./TabButton.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./TabControl.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./Thumb.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/././PushButton.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./Titlebar.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./ToggleButton.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./Tooltip.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./Tree.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./../WindowManager.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/././TreeItem.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/././../String.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/././../ColourRect.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/././../BasicRenderedStringParser.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/././Scrollbar.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./TreeItem.h:
+
+/usr/local/include/cegui-0/CEGUI/widgets/./VerticalLayoutContainer.h:
+
+/usr/local/include/cegui-0/CEGUI/RendererModules/Ogre/Renderer.h:
+
+/usr/local/include/cegui-0/CEGUI/RendererModules/Ogre/../../Renderer.h:
+
+/usr/local/include/cegui-0/CEGUI/RendererModules/Ogre/../../Size.h:
+
+/usr/local/include/cegui-0/CEGUI/RendererModules/Ogre/../../Vector.h:
+
+../src/HighScores.h:

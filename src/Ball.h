@@ -25,6 +25,7 @@ public:
 	virtual Ogre::Vector3 getmOldBallPosition();
 	virtual int getNumLives();
 	virtual std::string getName();
+	virtual void removeLife();
 
 private:
 // used to create the entity and the scene node
@@ -37,7 +38,6 @@ private:
     Ogre::int32 mBallSpeed;
     Ogre::Vector3 mBallDirection;
     int numLives;
-    static int numBalls;
     std::string name;
 };
 #endif /* BALL_H_ */
